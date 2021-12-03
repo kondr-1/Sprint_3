@@ -1,0 +1,94 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "orders.CreateOrderTest",
+    "children" : [ {
+      "name" : "requestsSomeColorKickScooter{String, String}[4]",
+      "uid" : "f2f238f500a7958a",
+      "parentUid" : "12b7d36b038c80e8940b83b6d2f24ba9",
+      "status" : "passed",
+      "time" : {
+        "duration" : 125
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "requestsSomeColorKickScooter{String, String}[1]",
+      "uid" : "a9c5c46defb845af",
+      "parentUid" : "12b7d36b038c80e8940b83b6d2f24ba9",
+      "status" : "passed",
+      "time" : {
+        "duration" : 196
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "requestsSomeColorKickScooter{String, String}[2]",
+      "uid" : "575cf17b41ca386",
+      "parentUid" : "12b7d36b038c80e8940b83b6d2f24ba9",
+      "status" : "passed",
+      "time" : {
+        "duration" : 188
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "requestsSomeColorKickScooter{String, String}[3]",
+      "uid" : "e50f5650dd2221e7",
+      "parentUid" : "12b7d36b038c80e8940b83b6d2f24ba9",
+      "status" : "passed",
+      "time" : {
+        "duration" : 156
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "12b7d36b038c80e8940b83b6d2f24ba9"
+  }, {
+    "name" : "сreateCourier.AddNewCourierTest",
+    "children" : [ {
+      "name" : "createTwoSameCourier",
+      "uid" : "bd4e2fcab92e5bc8",
+      "parentUid" : "1031d2e19ff37a73fccf73af78a2b3f9",
+      "status" : "passed",
+      "time" : {
+        "duration" : 381
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "newCourier",
+      "uid" : "51d2849ca3f54340",
+      "parentUid" : "1031d2e19ff37a73fccf73af78a2b3f9",
+      "status" : "failed",
+      "time" : {
+        "duration" : 94
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "1031d2e19ff37a73fccf73af78a2b3f9"
+  }, {
+    "name" : "loginСourier.AuthorizationCourierTests",
+    "children" : [ {
+      "name" : "authorizationCourier",
+      "uid" : "584c2ec9da2ccd54",
+      "parentUid" : "d94e1f9628a46a0ec9c47084133677a1",
+      "status" : "passed",
+      "time" : {
+        "duration" : 13831
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d94e1f9628a46a0ec9c47084133677a1"
+  } ]
+}
