@@ -6,15 +6,17 @@ import api.requests.LoginCourier;
 import api.responses.CreateCourierOk;
 import api.responses.LoginCourierOk;
 import api.sender.MethodService;
+import io.qameta.allure.Step;
 import io.restassured.response.Response;
 import org.apache.commons.lang3.RandomStringUtils;
-import org.junit.Assert;
+import org.testng.Assert;
 
 import static constant.Urls.*;
-import static org.junit.Assert.assertEquals;
+import static org.testng.Assert.assertEquals;
 
 public class GeneratedDataCourier {
 
+    @Step("Создание курьера")
     public CreateCourier TestCourierService() {
 
         String courierLogin = RandomStringUtils.randomAlphabetic(10);
@@ -28,11 +30,13 @@ public class GeneratedDataCourier {
                 .build();
 
         Response createNewCourier = MethodService.postRequest(ADD_COURIER, createCourier);
+
         assertEquals(201, createNewCourier.statusCode());
         Assert.assertTrue(createNewCourier.as(CreateCourierOk.class).getOk());
         return createCourier;
     }
 
+    @Step("Авторизация курьреа и получение его ID")
     public String authorizationCourier(String courierPassword, String courierLogin) {
         LoginCourier loginCourier = LoginCourier.builder()
                 .password(courierPassword)
@@ -43,6 +47,7 @@ public class GeneratedDataCourier {
         return getIdCourier.as(LoginCourierOk.class).getId().toString();
     }
 
+    @Step("Удаление курьреа")
     public void deleteCourier(String courierId) {
         DeleteCourier deleteCourierRequests = DeleteCourier.builder()
                 .id(courierId)

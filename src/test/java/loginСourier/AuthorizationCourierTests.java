@@ -7,11 +7,11 @@ import api.sender.MethodService;
 import generatedTestData.GeneratedDataCourier;
 import io.qameta.allure.Description;
 import io.restassured.response.Response;
-import org.junit.Assert;
 import org.junit.jupiter.api.Test;
+import org.testng.Assert;
 
 import static constant.Urls.LOGIN_COURIER;
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class AuthorizationCourierTests {
 

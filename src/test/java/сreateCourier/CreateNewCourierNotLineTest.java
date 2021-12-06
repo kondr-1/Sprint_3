@@ -6,29 +6,20 @@ import api.sender.MethodService;
 import io.qameta.allure.Description;
 import io.restassured.response.Response;
 import org.apache.commons.lang3.RandomStringUtils;
-import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.junit.runners.Parameterized;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.MethodSource;
 
 import static constant.ResponseMessage.LOGIN_NOT_FIELD;
 import static constant.Urls.ADD_COURIER;
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-
-@RunWith(Parameterized.class)
 public class CreateNewCourierNotLineTest {
 
     private static String courierLogin = RandomStringUtils.randomAlphabetic(10);
     private static String courierPassword = RandomStringUtils.randomAlphabetic(10);
     private static String courierFirstName = RandomStringUtils.randomAlphabetic(10);
 
-    public CreateNewCourierNotLineTest(String courierLogin, String courierPassword, String courierFirstName) {
-        this.courierLogin = courierLogin;
-        this.courierPassword = courierPassword;
-        this.courierFirstName = courierFirstName;
-    }
 
-    @Parameterized.Parameters
     public static Object[] getViewException() {
         return new Object[][]{
                 {courierLogin, "", courierFirstName},
@@ -38,9 +29,10 @@ public class CreateNewCourierNotLineTest {
         };
     }
 
-    @Test
+    @ParameterizedTest
+    @MethodSource("getViewException")
     @Description("Parameterized test mandatory line create courier")
-    public void createNewCourierVariousParameters() {
+    public void createNewCourierVariousParameters(String courierFirstName, String courierLogin, String courierPassword) {
         CreateCourier createCourier = CreateCourier.builder()
                 .firstName(courierFirstName)
                 .login(courierLogin)

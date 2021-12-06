@@ -1,8 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","","","125","","orders.CreateOrderTest","","orders.CreateOrderTest","","requestsSomeColorKickScooter{String, String}[4]",""
-"passed","","","196","","orders.CreateOrderTest","","orders.CreateOrderTest","","requestsSomeColorKickScooter{String, String}[1]",""
-"passed","","","188","","orders.CreateOrderTest","","orders.CreateOrderTest","","requestsSomeColorKickScooter{String, String}[2]",""
-"passed","","","156","","orders.CreateOrderTest","","orders.CreateOrderTest","","requestsSomeColorKickScooter{String, String}[3]",""
-"passed","","","381","","сreateCourier.AddNewCourierTest","","сreateCourier.AddNewCourierTest","","createTwoSameCourier",""
-"passed","","","13831","","loginСourier.AuthorizationCourierTests","","loginСourier.AuthorizationCourierTests","","authorizationCourier",""
-"failed","","","94","","сreateCourier.AddNewCourierTest","","сreateCourier.AddNewCourierTest","","newCourier",""
