@@ -8,10 +8,10 @@ import generatedTestData.GeneratedDataCourier;
 import io.restassured.response.Response;
 import jdk.jfr.Description;
 import org.apache.commons.lang3.RandomStringUtils;
+import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.testng.annotations.AfterClass;
 
 import static constant.ResponseMessage.NOT_AUTHORIZATION;
 import static constant.ResponseMessage.NOT_AUTHORIZATION_LINE;
@@ -20,8 +20,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class AuthorizationCourierNotLineTest {
 
-    @AfterClass
-    public void deleteCreatesCourierFromTest() {
+    @AfterAll
+    static void deleteCreatesCourierFromTest() {
         new GeneratedDataCourier().deleteCourier(new GeneratedDataCourier().authorizationCourier(cratePasswordCourier, crateLoginCourier));
     }
 

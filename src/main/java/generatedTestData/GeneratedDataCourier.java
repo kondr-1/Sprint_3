@@ -9,10 +9,9 @@ import api.sender.MethodService;
 import io.qameta.allure.Step;
 import io.restassured.response.Response;
 import org.apache.commons.lang3.RandomStringUtils;
-import org.testng.Assert;
 
 import static constant.Urls.*;
-import static org.testng.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class GeneratedDataCourier {
 
@@ -32,7 +31,7 @@ public class GeneratedDataCourier {
         Response createNewCourier = MethodService.postRequest(ADD_COURIER, createCourier);
 
         assertEquals(201, createNewCourier.statusCode());
-        Assert.assertTrue(createNewCourier.as(CreateCourierOk.class).getOk());
+        assertTrue(createNewCourier.as(CreateCourierOk.class).getOk());
         return createCourier;
     }
 

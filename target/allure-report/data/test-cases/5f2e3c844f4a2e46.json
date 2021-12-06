@@ -1,0 +1,53 @@
+{
+  "uid" : "5f2e3c844f4a2e46",
+  "name" : "createTwoSameCourier",
+  "historyId" : "сreateCourier.AddNewCourierTest:сreateCourier.AddNewCourierTest#createTwoSameCourier",
+  "time" : {
+    "duration" : 1632
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "51d0e50929b5776a",
+      "name" : "System out",
+      "source" : "51d0e50929b5776a.txt",
+      "type" : "text/plain",
+      "size" : 317
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "сreateCourier.AddNewCourierTest"
+  }, {
+    "name" : "testClass",
+    "value" : "сreateCourier.AddNewCourierTest"
+  }, {
+    "name" : "package",
+    "value" : "сreateCourier.AddNewCourierTest"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5f2e3c844f4a2e46.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: loginСourier.AuthorizationCourierNotLineTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 70.788 s <<< FAILURE! - in loginСourier.AuthorizationCourierNotLineTest
+authorizationCourierNotPassword  Time elapsed: 60.261 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <400> but was: <504>
+	at loginСourier.AuthorizationCourierNotLineTest.authorizationCourierNotPassword(AuthorizationCourierNotLineTest.java:89)
+

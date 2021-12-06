@@ -8,10 +8,9 @@ import generatedTestData.GeneratedDataCourier;
 import io.qameta.allure.Description;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.Test;
-import org.testng.Assert;
 
 import static constant.Urls.LOGIN_COURIER;
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class AuthorizationCourierTests {
 
@@ -27,7 +26,7 @@ public class AuthorizationCourierTests {
 
         Response authorizationNewCourier = MethodService.postRequest(LOGIN_COURIER, loginCourier);
         assertEquals(200, authorizationNewCourier.statusCode());
-        Assert.assertNotNull(authorizationNewCourier.as(LoginCourierOk.class).getId());
+        assertNotNull(authorizationNewCourier.as(LoginCourierOk.class).getId());
 
         new GeneratedDataCourier().deleteCourier(authorizationNewCourier.as(LoginCourierOk.class).getId().toString());
     }

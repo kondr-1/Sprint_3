@@ -1,0 +1,344 @@
+{
+  "сreateCourier.AddNewCourierTest:сreateCourier.AddNewCourierTest#newCourier" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3a081080ab7986de",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1141
+      }
+    } ]
+  },
+  "orders.CreateOrderTest:orders.CreateOrderTest#requestsSomeColorKickScooter{String, String}[4]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6b4406560d693e9d",
+      "status" : "passed",
+      "time" : {
+        "duration" : 156
+      }
+    } ]
+  },
+  "сreateCourier.AddNewCourierTest:сreateCourier.AddNewCourierTest#createTwoSameCourier" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5f2e3c844f4a2e46",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1632
+      }
+    } ]
+  },
+  "orders.GetOrdersTest:orders.GetOrdersTest#getAllOrdersCourier" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7229d26932ee5689",
+      "status" : "passed",
+      "time" : {
+        "duration" : 294
+      }
+    } ]
+  },
+  "loginСourier.AuthorizationCourierNotLineTest:loginСourier.AuthorizationCourierNotLineTest#authorizationCourierNotLogin" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3933330c9ae55b9e",
+      "status" : "passed",
+      "time" : {
+        "duration" : 266
+      }
+    } ]
+  },
+  "loginСourier.AuthorizationCourierNotLineTest:loginСourier.AuthorizationCourierNotLineTest#createNewCourierVariousParameters{String, String}[3]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9da609afe25308aa",
+      "status" : "passed",
+      "time" : {
+        "duration" : 95
+      }
+    } ]
+  },
+  "loginСourier.AuthorizationCourierNotLineTest:loginСourier.AuthorizationCourierNotLineTest#createNewCourierVariousParameters{String, String}[2]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b5facf7ddbb1c830",
+      "status" : "passed",
+      "time" : {
+        "duration" : 99
+      }
+    } ]
+  },
+  "loginСourier.AuthorizationCourierTests:loginСourier.AuthorizationCourierTests#authorizationCourier" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f2c9678a351be675",
+      "status" : "passed",
+      "time" : {
+        "duration" : 291
+      }
+    } ]
+  },
+  "сreateCourier.CreateNewCourierNotLineTest:сreateCourier.CreateNewCourierNotLineTest#createNewCourierVariousParameters{String, String, String}[3]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e7ed9b3e1fc0d7b2",
+      "status" : "passed",
+      "time" : {
+        "duration" : 93
+      }
+    } ]
+  },
+  "сreateCourier.CreateNewCourierNotLineTest:сreateCourier.CreateNewCourierNotLineTest#createNewCourierVariousParameters{String, String, String}[4]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3a2834f4e8dfd149",
+      "status" : "passed",
+      "time" : {
+        "duration" : 102
+      }
+    } ]
+  },
+  "сreateCourier.CreateNewCourierNotLineTest:сreateCourier.CreateNewCourierNotLineTest#createNewCourierVariousParameters{String, String, String}[1]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "99bf12ff1359434c",
+      "status" : "passed",
+      "time" : {
+        "duration" : 102
+      }
+    } ]
+  },
+  "сreateCourier.CreateNewCourierNotLineTest:сreateCourier.CreateNewCourierNotLineTest#createNewCourierVariousParameters{String, String, String}[2]" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "eb4c91a0ed4c4a5",
+      "status" : "failed",
+      "statusDetails" : "expected: <400> but was: <201>",
+      "time" : {
+        "duration" : 141
+      }
+    } ]
+  },
+  "loginСourier.AuthorizationCourierNotLineTest:loginСourier.AuthorizationCourierNotLineTest#authorizationCourierNotPassword" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "14bf0ff914b460a5",
+      "status" : "failed",
+      "statusDetails" : "expected: <400> but was: <504>",
+      "time" : {
+        "duration" : 60261
+      }
+    } ]
+  },
+  "loginСourier.AuthorizationCourierNotLineTest:loginСourier.AuthorizationCourierNotLineTest#createNewCourierVariousCreateLogPass{String, String}[1]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "220d7b0ff52f496e",
+      "status" : "passed",
+      "time" : {
+        "duration" : 151
+      }
+    } ]
+  },
+  "orders.CreateOrderTest:orders.CreateOrderTest#requestsSomeColorKickScooter{String, String}[1]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cc9856842f2ea942",
+      "status" : "passed",
+      "time" : {
+        "duration" : 204
+      }
+    } ]
+  },
+  "loginСourier.AuthorizationCourierNotLineTest:loginСourier.AuthorizationCourierNotLineTest#createNewCourierVariousCreateLogPass{String, String}[2]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ab074a19451a7628",
+      "status" : "passed",
+      "time" : {
+        "duration" : 97
+      }
+    } ]
+  },
+  "loginСourier.AuthorizationCourierNotLineTest:loginСourier.AuthorizationCourierNotLineTest#createNewCourierVariousParameters{String, String}[1]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ec4b6565b8f9dec8",
+      "status" : "passed",
+      "time" : {
+        "duration" : 134
+      }
+    } ]
+  },
+  "orders.CreateOrderTest:orders.CreateOrderTest#requestsSomeColorKickScooter{String, String}[3]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1065fc62a4374b60",
+      "status" : "passed",
+      "time" : {
+        "duration" : 119
+      }
+    } ]
+  },
+  "loginСourier.AuthorizationCourierNotLineTest:loginСourier.AuthorizationCourierNotLineTest#createNewCourierVariousCreateLogPass{String, String}[3]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7ecfc1ae733a235a",
+      "status" : "passed",
+      "time" : {
+        "duration" : 114
+      }
+    } ]
+  },
+  "orders.CreateOrderTest:orders.CreateOrderTest#requestsSomeColorKickScooter{String, String}[2]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6a13af78a719dcbd",
+      "status" : "passed",
+      "time" : {
+        "duration" : 116
+      }
+    } ]
+  }
+}

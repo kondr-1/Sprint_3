@@ -9,8 +9,9 @@ import api.sender.MethodService;
 import com.github.javafaker.Faker;
 import io.qameta.allure.Description;
 import io.restassured.response.Response;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.testng.annotations.AfterTest;
 
 import java.util.Locale;
 
@@ -21,8 +22,11 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class AddNewCourierTest {
 
-    @AfterTest
-    public void deleteCourier() {
+    private CreateCourier createCourier;
+    private LoginCourier loginCourier;
+
+    @AfterEach
+    void deleteCourier() {
         Response getIdCourier = MethodService.postRequest(LOGIN_COURIER, loginCourier);
         String courierId = getIdCourier.as(LoginCourierOk.class).getId().toString();
 
@@ -33,21 +37,24 @@ public class AddNewCourierTest {
         MethodService.deleteRequests(DELETE_COURIER, deleteCourier, courierId);
     }
 
-    Faker faker = new Faker(new Locale("en-US"));
-    String courierLogin = faker.name().lastName();
-    String courierPassword = faker.name().lastName() + faker.number().randomNumber();
-    String courierFirstName = faker.name().firstName();
+    @BeforeEach
+    void generateCourierData() {
+        Faker faker = new Faker(new Locale("en-US"));
+        String courierLogin = faker.name().lastName();
+        String courierPassword = faker.name().lastName() + faker.number().randomNumber();
+        String courierFirstName = faker.name().firstName();
 
-    CreateCourier createCourier = CreateCourier.builder()
-            .firstName(courierFirstName)
-            .login(courierLogin)
-            .password(courierPassword)
-            .build();
+        createCourier = CreateCourier.builder()
+                .firstName(courierFirstName)
+                .login(courierLogin)
+                .password(courierPassword)
+                .build();
 
-    LoginCourier loginCourier = LoginCourier.builder()
-            .password(courierPassword)
-            .login(courierLogin)
-            .build();
+        loginCourier = LoginCourier.builder()
+                .password(courierPassword)
+                .login(courierLogin)
+                .build();
+    }
 
     @Test
     @Description("Create new courier test")
