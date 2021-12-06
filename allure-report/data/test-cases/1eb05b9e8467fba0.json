@@ -1,0 +1,59 @@
+{
+  "uid" : "1eb05b9e8467fba0",
+  "name" : "createNewCourierVariousParameters{String, String, String}[2]",
+  "historyId" : "сreateCourier.CreateNewCourierNotLineTest:сreateCourier.CreateNewCourierNotLineTest#createNewCourierVariousParameters{String, String, String}[2]",
+  "time" : {
+    "duration" : 108
+  },
+  "status" : "failed",
+  "statusMessage" : "expected: <400> but was: <201>",
+  "statusTrace" : "org.opentest4j.AssertionFailedError: expected: <400> but was: <201>\n\tat сreateCourier.CreateNewCourierNotLineTest.createNewCourierVariousParameters(CreateNewCourierNotLineTest.java:43)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "70ac693f36d89882",
+      "name" : "System out",
+      "source" : "70ac693f36d89882.txt",
+      "type" : "text/plain",
+      "size" : 637
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "сreateCourier.CreateNewCourierNotLineTest"
+  }, {
+    "name" : "testClass",
+    "value" : "сreateCourier.CreateNewCourierNotLineTest"
+  }, {
+    "name" : "package",
+    "value" : "сreateCourier.CreateNewCourierNotLineTest"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "1eb05b9e8467fba0.json",
+  "parameterValues" : [ ]
+}

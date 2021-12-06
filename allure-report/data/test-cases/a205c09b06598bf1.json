@@ -1,0 +1,53 @@
+{
+  "uid" : "a205c09b06598bf1",
+  "name" : "createNewCourierVariousParameters{String, String}[1]",
+  "historyId" : "loginСourier.AuthorizationCourierNotLineTest:loginСourier.AuthorizationCourierNotLineTest#createNewCourierVariousParameters{String, String}[1]",
+  "time" : {
+    "duration" : 125
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2109db6deaf638f3",
+      "name" : "System out",
+      "source" : "2109db6deaf638f3.txt",
+      "type" : "text/plain",
+      "size" : 621
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "loginСourier.AuthorizationCourierNotLineTest"
+  }, {
+    "name" : "testClass",
+    "value" : "loginСourier.AuthorizationCourierNotLineTest"
+  }, {
+    "name" : "package",
+    "value" : "loginСourier.AuthorizationCourierNotLineTest"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a205c09b06598bf1.json",
+  "parameterValues" : [ ]
+}
