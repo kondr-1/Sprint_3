@@ -1,0 +1,53 @@
+{
+  "uid" : "f76475788c4441c9",
+  "name" : "newCourier",
+  "historyId" : "сreateCourier.AddNewCourierTest:сreateCourier.AddNewCourierTest#newCourier",
+  "time" : {
+    "duration" : 1562
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "997f579d592c4206",
+      "name" : "System out",
+      "source" : "997f579d592c4206.txt",
+      "type" : "text/plain",
+      "size" : 316
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "сreateCourier.AddNewCourierTest"
+  }, {
+    "name" : "testClass",
+    "value" : "сreateCourier.AddNewCourierTest"
+  }, {
+    "name" : "package",
+    "value" : "сreateCourier.AddNewCourierTest"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f76475788c4441c9.json",
+  "parameterValues" : [ ]
+}

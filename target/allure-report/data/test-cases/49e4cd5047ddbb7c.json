@@ -1,0 +1,53 @@
+{
+  "uid" : "49e4cd5047ddbb7c",
+  "name" : "createNewCourierVariousParameters{String, String, String}[4]",
+  "historyId" : "сreateCourier.CreateNewCourierNotLineTest:сreateCourier.CreateNewCourierNotLineTest#createNewCourierVariousParameters{String, String, String}[4]",
+  "time" : {
+    "duration" : 87
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7a2a45fc6e122d50",
+      "name" : "System out",
+      "source" : "7a2a45fc6e122d50.txt",
+      "type" : "text/plain",
+      "size" : 637
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "сreateCourier.CreateNewCourierNotLineTest"
+  }, {
+    "name" : "testClass",
+    "value" : "сreateCourier.CreateNewCourierNotLineTest"
+  }, {
+    "name" : "package",
+    "value" : "сreateCourier.CreateNewCourierNotLineTest"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "49e4cd5047ddbb7c.json",
+  "parameterValues" : [ ]
+}

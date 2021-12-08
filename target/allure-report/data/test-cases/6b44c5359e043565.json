@@ -1,0 +1,53 @@
+{
+  "uid" : "6b44c5359e043565",
+  "name" : "requestsSomeColorKickScooter{String, String}[4]",
+  "historyId" : "orders.CreateOrderTest:orders.CreateOrderTest#requestsSomeColorKickScooter{String, String}[4]",
+  "time" : {
+    "duration" : 166
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e6811af0dd548c70",
+      "name" : "System out",
+      "source" : "e6811af0dd548c70.txt",
+      "type" : "text/plain",
+      "size" : 297
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "orders.CreateOrderTest"
+  }, {
+    "name" : "testClass",
+    "value" : "orders.CreateOrderTest"
+  }, {
+    "name" : "package",
+    "value" : "orders.CreateOrderTest"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6b44c5359e043565.json",
+  "parameterValues" : [ ]
+}
