@@ -1,0 +1,161 @@
+[ {
+  "uid" : "405527e44836cff2",
+  "name" : "createNewCourierVariousParameters{String, String}[1]",
+  "time" : {
+    "duration" : 142
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3bd2a42d7d31854e",
+  "name" : "createNewCourierVariousParameters{String, String}[3]",
+  "time" : {
+    "duration" : 116
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c8180ba65b252d56",
+  "name" : "createTwoSameCourier",
+  "time" : {
+    "duration" : 1964
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4842b56aac055ef4",
+  "name" : "authorizationCourier",
+  "time" : {
+    "duration" : 214
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "56aed56e7cf5520",
+  "name" : "createNewCourierVariousCreateLogPass{String, String}[2]",
+  "time" : {
+    "duration" : 114
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "49e4cd5047ddbb7c",
+  "name" : "createNewCourierVariousParameters{String, String, String}[4]",
+  "time" : {
+    "duration" : 87
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "77cf5827782ac7dc",
+  "name" : "createNewCourierVariousParameters{String, String, String}[3]",
+  "time" : {
+    "duration" : 86
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2971dd35230053fa",
+  "name" : "getAllOrdersCourier",
+  "time" : {
+    "duration" : 417
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e2ed97be511211a",
+  "name" : "requestsSomeColorKickScooter{String, String}[2]",
+  "time" : {
+    "duration" : 186
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "94aee6bee9a9a66",
+  "name" : "createNewCourierVariousParameters{String, String, String}[2]",
+  "time" : {
+    "duration" : 113
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "58ba905b4fcdd92d",
+  "name" : "createNewCourierVariousParameters{String, String, String}[1]",
+  "time" : {
+    "duration" : 65
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f76475788c4441c9",
+  "name" : "newCourier",
+  "time" : {
+    "duration" : 1562
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "43449175b55337bc",
+  "name" : "createNewCourierVariousCreateLogPass{String, String}[3]",
+  "time" : {
+    "duration" : 105
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2a1dc54be5c52a43",
+  "name" : "requestsSomeColorKickScooter{String, String}[1]",
+  "time" : {
+    "duration" : 205
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cb2a6cb94ef3e2fe",
+  "name" : "authorizationCourierNotLogin",
+  "time" : {
+    "duration" : 291
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b44c5359e043565",
+  "name" : "requestsSomeColorKickScooter{String, String}[4]",
+  "time" : {
+    "duration" : 166
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef76d619c504ec7e",
+  "name" : "createNewCourierVariousCreateLogPass{String, String}[1]",
+  "time" : {
+    "duration" : 106
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "deb16225d6705df",
+  "name" : "createNewCourierVariousParameters{String, String}[2]",
+  "time" : {
+    "duration" : 92
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "187ec355708fc77f",
+  "name" : "authorizationCourierNotPassword",
+  "time" : {
+    "duration" : 60218
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "bab1de7471719547",
+  "name" : "requestsSomeColorKickScooter{String, String}[3]",
+  "time" : {
+    "duration" : 152
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

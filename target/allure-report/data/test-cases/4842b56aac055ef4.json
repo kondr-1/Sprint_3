@@ -1,0 +1,53 @@
+{
+  "uid" : "4842b56aac055ef4",
+  "name" : "authorizationCourier",
+  "historyId" : "loginСourier.AuthorizationCourierTests:loginСourier.AuthorizationCourierTests#authorizationCourier",
+  "time" : {
+    "duration" : 214
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5c3247dd80b215fd",
+      "name" : "System out",
+      "source" : "5c3247dd80b215fd.txt",
+      "type" : "text/plain",
+      "size" : 331
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "loginСourier.AuthorizationCourierTests"
+  }, {
+    "name" : "testClass",
+    "value" : "loginСourier.AuthorizationCourierTests"
+  }, {
+    "name" : "package",
+    "value" : "loginСourier.AuthorizationCourierTests"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4842b56aac055ef4.json",
+  "parameterValues" : [ ]
+}

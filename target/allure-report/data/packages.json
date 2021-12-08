@@ -1,0 +1,261 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "loginСourier",
+    "children" : [ {
+      "name" : "AuthorizationCourierNotLineTest",
+      "children" : [ {
+        "name" : "createNewCourierVariousParameters{String, String}[1]",
+        "uid" : "405527e44836cff2",
+        "parentUid" : "b56dbb935d37de673be98d407c80f88c",
+        "status" : "passed",
+        "time" : {
+          "duration" : 142
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "createNewCourierVariousParameters{String, String}[3]",
+        "uid" : "3bd2a42d7d31854e",
+        "parentUid" : "b56dbb935d37de673be98d407c80f88c",
+        "status" : "passed",
+        "time" : {
+          "duration" : 116
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "createNewCourierVariousCreateLogPass{String, String}[2]",
+        "uid" : "56aed56e7cf5520",
+        "parentUid" : "b56dbb935d37de673be98d407c80f88c",
+        "status" : "passed",
+        "time" : {
+          "duration" : 114
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "createNewCourierVariousCreateLogPass{String, String}[3]",
+        "uid" : "43449175b55337bc",
+        "parentUid" : "b56dbb935d37de673be98d407c80f88c",
+        "status" : "passed",
+        "time" : {
+          "duration" : 105
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "authorizationCourierNotLogin",
+        "uid" : "cb2a6cb94ef3e2fe",
+        "parentUid" : "b56dbb935d37de673be98d407c80f88c",
+        "status" : "passed",
+        "time" : {
+          "duration" : 291
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "createNewCourierVariousCreateLogPass{String, String}[1]",
+        "uid" : "ef76d619c504ec7e",
+        "parentUid" : "b56dbb935d37de673be98d407c80f88c",
+        "status" : "passed",
+        "time" : {
+          "duration" : 106
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "createNewCourierVariousParameters{String, String}[2]",
+        "uid" : "deb16225d6705df",
+        "parentUid" : "b56dbb935d37de673be98d407c80f88c",
+        "status" : "passed",
+        "time" : {
+          "duration" : 92
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "authorizationCourierNotPassword",
+        "uid" : "187ec355708fc77f",
+        "parentUid" : "b56dbb935d37de673be98d407c80f88c",
+        "status" : "failed",
+        "time" : {
+          "duration" : 60218
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b56dbb935d37de673be98d407c80f88c"
+    }, {
+      "name" : "AuthorizationCourierTests",
+      "children" : [ {
+        "name" : "authorizationCourier",
+        "uid" : "4842b56aac055ef4",
+        "parentUid" : "5897d720d0833c4993488021f6221484",
+        "status" : "passed",
+        "time" : {
+          "duration" : 214
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5897d720d0833c4993488021f6221484"
+    } ],
+    "uid" : "8ac526f5eb1bffed8be4aa949ec90b71"
+  }, {
+    "name" : "сreateCourier",
+    "children" : [ {
+      "name" : "AddNewCourierTest",
+      "children" : [ {
+        "name" : "createTwoSameCourier",
+        "uid" : "c8180ba65b252d56",
+        "parentUid" : "fb94d61d2f9c50ee0d03d33dbe4dd1ad",
+        "status" : "passed",
+        "time" : {
+          "duration" : 1964
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "newCourier",
+        "uid" : "f76475788c4441c9",
+        "parentUid" : "fb94d61d2f9c50ee0d03d33dbe4dd1ad",
+        "status" : "passed",
+        "time" : {
+          "duration" : 1562
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fb94d61d2f9c50ee0d03d33dbe4dd1ad"
+    }, {
+      "name" : "CreateNewCourierNotLineTest",
+      "children" : [ {
+        "name" : "createNewCourierVariousParameters{String, String, String}[4]",
+        "uid" : "49e4cd5047ddbb7c",
+        "parentUid" : "9ca38b6c86e2ce5dacf151c9b9cfd24c",
+        "status" : "passed",
+        "time" : {
+          "duration" : 87
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "createNewCourierVariousParameters{String, String, String}[3]",
+        "uid" : "77cf5827782ac7dc",
+        "parentUid" : "9ca38b6c86e2ce5dacf151c9b9cfd24c",
+        "status" : "passed",
+        "time" : {
+          "duration" : 86
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "createNewCourierVariousParameters{String, String, String}[2]",
+        "uid" : "94aee6bee9a9a66",
+        "parentUid" : "9ca38b6c86e2ce5dacf151c9b9cfd24c",
+        "status" : "failed",
+        "time" : {
+          "duration" : 113
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "createNewCourierVariousParameters{String, String, String}[1]",
+        "uid" : "58ba905b4fcdd92d",
+        "parentUid" : "9ca38b6c86e2ce5dacf151c9b9cfd24c",
+        "status" : "passed",
+        "time" : {
+          "duration" : 65
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9ca38b6c86e2ce5dacf151c9b9cfd24c"
+    } ],
+    "uid" : "fa4e2edaf8257d7b6a025b25a81f58f6"
+  }, {
+    "name" : "orders",
+    "children" : [ {
+      "name" : "GetOrdersTest",
+      "children" : [ {
+        "name" : "getAllOrdersCourier",
+        "uid" : "2971dd35230053fa",
+        "parentUid" : "ba09094dbd2b1b09c9d71617a1d0e1e9",
+        "status" : "passed",
+        "time" : {
+          "duration" : 417
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ba09094dbd2b1b09c9d71617a1d0e1e9"
+    }, {
+      "name" : "CreateOrderTest",
+      "children" : [ {
+        "name" : "requestsSomeColorKickScooter{String, String}[2]",
+        "uid" : "7e2ed97be511211a",
+        "parentUid" : "cafb51750c76bb5cbb166a5c88b6dd9a",
+        "status" : "passed",
+        "time" : {
+          "duration" : 186
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "requestsSomeColorKickScooter{String, String}[1]",
+        "uid" : "2a1dc54be5c52a43",
+        "parentUid" : "cafb51750c76bb5cbb166a5c88b6dd9a",
+        "status" : "passed",
+        "time" : {
+          "duration" : 205
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "requestsSomeColorKickScooter{String, String}[4]",
+        "uid" : "6b44c5359e043565",
+        "parentUid" : "cafb51750c76bb5cbb166a5c88b6dd9a",
+        "status" : "passed",
+        "time" : {
+          "duration" : 166
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "requestsSomeColorKickScooter{String, String}[3]",
+        "uid" : "bab1de7471719547",
+        "parentUid" : "cafb51750c76bb5cbb166a5c88b6dd9a",
+        "status" : "passed",
+        "time" : {
+          "duration" : 152
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cafb51750c76bb5cbb166a5c88b6dd9a"
+    } ],
+    "uid" : "3cec08c6258f0503f91448bdd493f700"
+  } ]
+}

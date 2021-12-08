@@ -1,0 +1,53 @@
+{
+  "uid" : "cb2a6cb94ef3e2fe",
+  "name" : "authorizationCourierNotLogin",
+  "historyId" : "loginСourier.AuthorizationCourierNotLineTest:loginСourier.AuthorizationCourierNotLineTest#authorizationCourierNotLogin",
+  "time" : {
+    "duration" : 291
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "91f814db08ba0c5",
+      "name" : "System out",
+      "source" : "91f814db08ba0c5.txt",
+      "type" : "text/plain",
+      "size" : 621
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "loginСourier.AuthorizationCourierNotLineTest"
+  }, {
+    "name" : "testClass",
+    "value" : "loginСourier.AuthorizationCourierNotLineTest"
+  }, {
+    "name" : "package",
+    "value" : "loginСourier.AuthorizationCourierNotLineTest"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cb2a6cb94ef3e2fe.json",
+  "parameterValues" : [ ]
+}

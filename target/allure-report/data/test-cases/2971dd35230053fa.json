@@ -1,0 +1,53 @@
+{
+  "uid" : "2971dd35230053fa",
+  "name" : "getAllOrdersCourier",
+  "historyId" : "orders.GetOrdersTest:orders.GetOrdersTest#getAllOrdersCourier",
+  "time" : {
+    "duration" : 417
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7b473a93d030f5c",
+      "name" : "System out",
+      "source" : "7b473a93d030f5c.txt",
+      "type" : "text/plain",
+      "size" : 293
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "orders.GetOrdersTest"
+  }, {
+    "name" : "testClass",
+    "value" : "orders.GetOrdersTest"
+  }, {
+    "name" : "package",
+    "value" : "orders.GetOrdersTest"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2971dd35230053fa.json",
+  "parameterValues" : [ ]
+}

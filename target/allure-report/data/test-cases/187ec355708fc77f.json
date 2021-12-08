@@ -1,0 +1,59 @@
+{
+  "uid" : "187ec355708fc77f",
+  "name" : "authorizationCourierNotPassword",
+  "historyId" : "loginСourier.AuthorizationCourierNotLineTest:loginСourier.AuthorizationCourierNotLineTest#authorizationCourierNotPassword",
+  "time" : {
+    "duration" : 60218
+  },
+  "status" : "failed",
+  "statusMessage" : "expected: <400> but was: <504>",
+  "statusTrace" : "org.opentest4j.AssertionFailedError: expected: <400> but was: <504>\n\tat loginСourier.AuthorizationCourierNotLineTest.authorizationCourierNotPassword(AuthorizationCourierNotLineTest.java:89)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "91f814db08ba0c5",
+      "name" : "System out",
+      "source" : "91f814db08ba0c5.txt",
+      "type" : "text/plain",
+      "size" : 621
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "loginСourier.AuthorizationCourierNotLineTest"
+  }, {
+    "name" : "testClass",
+    "value" : "loginСourier.AuthorizationCourierNotLineTest"
+  }, {
+    "name" : "package",
+    "value" : "loginСourier.AuthorizationCourierNotLineTest"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "187ec355708fc77f.json",
+  "parameterValues" : [ ]
+}
